@@ -1,6 +1,6 @@
 import React from "react";
 
-import CoursesList from "./Containers/CoursesList";
+import CoursesList from "./Containers/CoursesList/CoursesList";
 import BBA from "./Components/bba";
 import BCA from "./Components/bca";
 import MCA from "./Components/mca";
