@@ -1,0 +1,6 @@
+{
+  "courses": [
+    { "course": "BCA", "id": 1 },
+    { "course": "MCA", "id": 2 }
+  ]
+}

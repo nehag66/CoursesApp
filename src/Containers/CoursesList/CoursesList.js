@@ -28,6 +28,12 @@ import Firebase from "../../firebase";
 // }
 
 const CoursesList = () => {
+  const [course, setCourse] = useState([]);
+
+  useEffect(() => {
+    console.log("use effect ran");
+  }, []);
+
   let history = useHistory();
   const onClickHandler = () => {
     console.log("button was cicked");
